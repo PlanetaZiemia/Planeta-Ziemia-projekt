@@ -1,0 +1,319 @@
+body {background-color: #282828;
+      margin: 0;
+      padding: 0;
+}
+
+h1 {color:  #595959;
+}
+
+span.spntyt {color:#00ff00;
+             font-size: 40px
+}
+
+span.span14 {color:#00b300;
+}
+
+span.span15 {color:#d9d9d9;
+}
+
+span.span16 {color:#d9d9d9;
+             font-size: 40px
+}
+
+h4 {color:  #00ff00;
+}
+
+span.sp12 {color:#00b300;
+}
+
+span.sp13 {color:#595959;
+}
+
+div.prz1 {margin-top: 25px;
+}
+
+p.prz2 {text-align: center;
+}
+
+picture.logo_strony {position: absolute;
+                 top: 0;
+                 right: 0
+} 
+
+p.tekst_stopki {text-align: center;
+}
+
+
+p.tekst_stopki_gora {text-align: center;
+                margin-top: 0;
+                padding-top: 9px;
+}
+
+
+footer {margin: 0;
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 10px;
+        background-color: #1491e5;
+        width: 100%;
+        
+}
+
+span.cpr {font-size: 11px
+}
+
+article {background-color: #282828;
+         margin-right: 100px;
+         margin-left: 100px;
+}
+
+article.artykol {color: #737373;
+}
+
+span.wielkalitera1 {color:#00ff00;
+                    font-size: 40px
+}
+
+
+span.wielkalitera2 {color:#ff0000;
+                    font-size: 40px
+}
+
+span.wielkalitera3 {color:#ffff00;
+                    font-size: 40px
+}
+
+span.wyroznienie1 {color:#00b300;
+}
+
+span.wyroznienie2 {color:#ff0000;
+}
+
+span.wyroznienie3 {color:#ffff00;
+}
+
+span.wielkalitera4 {color:#00b300;
+                    font-size: 40px
+}
+
+span.wyroznienie4 {color:#00b300;
+}
+
+p.zrodla_bnha {text-align: center;
+}
+
+a.pikaczuxjack3mm:link {color: #595959;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a.pikaczuxjack3mm:visited {color: #595959;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a.pikaczuxjack3mm:hover {color: red;
+          background-color: transparent;
+          text-decoration: underline;
+}
+
+a.pikaczuxjack3mm:active {color: #9900cc;
+           background-color: transparent;
+           text-decoration: underline;
+}
+
+a.prz3:link {color: #595959;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a.prz3:visited {color: #595959;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a.prz3:hover {color: #737373;
+          background-color: transparent;
+          text-decoration: underline;
+}
+
+a.prz3:active {color: #737373;
+           background-color: transparent;
+           text-decoration: underline;
+}
+
+/* mia³y byæ fajne kolorowe linki ale niestety coœ nie dzia³a³o :/ */
+
+table {background-color: #1a1a1a;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 50px;
+       outline-color:red;
+       outline-style: dashed;
+       outline-width: thin;
+       align: center;
+       width: 70%;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+span.ank {text-align: right;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+    /* wysuwane menu */
+
+
+ol     {list-style-type:none;
+        padding:0;
+        margin:0;
+        background-color:#282828;
+        font-size:18px;
+        height:2em;
+        line-height:2em;
+        text-align:center;
+}
+
+      /* wygl¹d wszystkich elementów - a - znajduj¹cych siê w elemencie - ol */
+      ol a {
+        display:block;
+        text-decoration:none;
+        color:#d9d9d9;
+        padding:0 5px;
+      }
+
+      /* wygl¹d elementów - li - wszystkich dzieci elementu - ol */
+      ol > li {
+        float:left;
+        width:150px;
+        margin-left:1px;
+        background-color:#404040;
+        height:2em;
+      }
+
+      /* wygl¹d elementu - li - pierwszego dziecka elementu - ol */
+      ol > li:first-child {
+        margin-left:0;
+      }
+
+      /* wygl¹d elementów - li - wszystkich dzieci elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol > li:hover {
+        background-color:#d9d9d9;<<<<<<<<<<
+      }
+
+      /* wygl¹d elementu - a - dziecka elementu - li - bêd¹cego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol > li:hover > a {
+        color:#404040;
+      }
+
+      /* wygl¹d elementu - ul - dziecka elementu - li - bêd¹cego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol > li:hover > ul {
+        display:block;
+      }
+
+      /* wysuwanie menu */
+
+
+      /* wygl¹d g³ównych rozwijanych elementów - ul */
+      ol > li > ul {
+        display:none;
+        list-style-type:none;
+        padding:0;
+        margin:0;
+      }
+
+      /* wygl¹d elementu - li - w czêœci rozwijanej */
+      ol > li > ul > li {
+        position:relative;
+        background-color:#404040;
+      }
+
+      /* wygl¹d elementu - a - w czêœci rozwijanej */
+      ol > li > ul > li > a {
+        border-top:0px solid #404040;
+      }
+
+      /* wygl¹d elementu - li - w czêœci rozwijanej, po najechaniu kursorem myszki na dany element - li */
+      ol > li > ul > li:hover {
+        background-color:#d9d9d9;
+      }
+
+      /* wygl¹d elementu - a - w czêœci rozwijanej, po najechaniu kursorem myszki na element - li */
+      ol > li > ul > li:hover > a {
+        color:#404040;
+      }
+
+ol {width: 7%;
+}
+
+nav.rozwijane_menu {position: -webkit-sticky;
+                    position: sticky;
+                    top: 0;
+}
+
+a.lk:link {color: #000000;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a.lk:visited {color: #000000;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a.lk:hover {color: #e6e6ff;
+          background-color: transparent;
+          text-decoration: underline;
+}
+
+a.lk:active {color: #9900cc;
+           background-color: transparent;
+           text-decoration: underline;
+} 
+
+
+
+
+div.galeria_ramka {margin: 5px;
+             border: 1px solid #777;
+             float: left;
+             width: 23%;
+}
+
+div.galeria_ramka:hover {border: 1px solid yellow;
+}
+
+div.galeria_ramka img {width: 100%;
+                 height: auto;
+}
+
+div.opis_zdjecia {padding: 15px;
+          text-align: center;
+}
+
+.zdjart {width: 18%;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+.galeria_ramka {width: 100%;}
+ol {width: 100%;}
+li {width: 100%;}
+.zdjart {width: 25%;}
+article {margin-right: 35px;
+         margin-left: 35px;
+}
+table {width: 95%;}  
+}
+

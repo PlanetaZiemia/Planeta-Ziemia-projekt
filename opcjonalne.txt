@@ -1,0 +1,79 @@
+<ol>
+      <li><a href="#">dzia≥ - 1</a>
+        <ul>
+          <li><a href="#">link - 1</a></li>
+          <li><a href="#">link - 2</a></li>
+          <li><a href="#">link - 3</a></li>
+          <li><a href="#">link - 4</a></li>
+          <li><a href="#">link - 5</a></li>
+        </ul>
+      </li>
+</ol>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2vN55XSbISY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+	<nav class="site-nav>
+      <button class="side-menu-trigger">Menu</button>
+    <aside class="side-menu">
+      <ul>
+        <li>
+          <a href="index.html">Strona G≥Ûwna </a>
+        </li>
+        <li>
+          <a href="artyku≥_1">Artyku≥1 </a>
+        </li>
+        <li>
+          <a href="artyku≥_2">Artyku≥2 </a>
+        </li>
+        <li>
+          <a href="artyku≥_3">Artyku≥3 </a>
+        </li>
+        <li>
+          <a href="ciekawe_rzeczy">Zobacz rÛwnieø </a>
+        </li>
+        <li>
+          <a href="ankieta">Ankieta </a>
+        </li>
+        <li>
+          <a href="galeria_zdjÍÊ">Galeria ZdjÍÊ </a>
+        </li>
+        <li>
+          <a href="zrodla">èrÛd≥a </a>
+        </li>
+      </ul>
+    </aside>
+    </nav>
+
+img.wypelnienie {position:static;
+                 bottom:50px;
+                 z-index:-1;
+}
+
+
+picture.stopka_strony{width:100%;
+}
+
+
+.ss {display: grid;
+     height: 100%;
+     margin: 0;
+     padding: 0;
+}
+        
+.stopka_strony {max-width: 100%;
+             max-height: 100vh;
+             margin: auto;
+}
+
+
+<div class="ss">
+                 <picture class="stopka_strony">
+                  <source srcset="grafika_techniczne/przejscie_stopka_telefon.png" media="(max-width: 480px)">
+                  <source srcset="grafika_techniczne/przejscie_stopka.png" media="(max-width: 2000px)">
+                  <source srcset="grafika_techniczne/przejscie_stopka.png">
+                  <img src="grafika_techniczne/przejscie_stopka.png" alt="Tutaj powinna byÊ TWOJA grafika">
+                 </picture>
+                </div>

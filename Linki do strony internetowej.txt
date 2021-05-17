@@ -1,0 +1,13 @@
+margin  position
+https://developer.mozilla.org/pl/docs/Web/CSS/CSS_Flexible_Box_Layout
+https://www.youtube.com/watch?v=LZhqZYVSAf0
+https://css-tricks.com/perfect-full-page-background-image/
+https://forum.pasja-informatyki.pl/194982/chowajacy-sie-obraz-tla
+http://www.blog.artsin.pl/html-znaczniki-semantyczne-co-to-i-po-co-mi-to/
+https://www.kurshtml.edu.pl/css/pierwsza_litera,pseudoelementy.html
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_article2
+https://www.w3schools.com/default.asp
+https://webkod.pl/kurs-css/lekcje/dzial-4/rozwijane-poziome-menu-css#
+https://www.ginifab.com/feeds/pms/color_picker_from_image.php
+http://lipsum.pl/index.php
+https://www.kurshtml.edu.pl/
