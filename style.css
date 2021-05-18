@@ -320,5 +320,6 @@ article {margin-right: 35px;
 }
 h1 {max-width:60%;}
       ol > li {float:left; width:100%; margin-left:1px; background-color:#404040; height:2em; align:center;}
+      .ank1 {display:none;}
 }
 
