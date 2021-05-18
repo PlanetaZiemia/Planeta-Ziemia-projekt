@@ -283,11 +283,12 @@ a.lk:active {color: #9900cc;
 
 
 
-
+@media only screen and (min-width: 481px) {
 div.galeria_ramka {margin: 5px;
              border: 1px solid #777;
              float: left;
              width: 23%;
+}
 }
 
 div.galeria_ramka:hover {border: 1px solid yellow;
