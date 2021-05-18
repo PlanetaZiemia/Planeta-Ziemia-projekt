@@ -145,6 +145,7 @@ a.prz3:active {color: #737373;
 
 /* mia³y byæ fajne kolorowe linki ale niestety coœ nie dzia³a³o :/ */
 
+@media only screen and (min-width: 481px) {
 table {background-color: #1a1a1a;
        margin-left: auto;
        margin-right: auto;
@@ -154,6 +155,7 @@ table {background-color: #1a1a1a;
        outline-width: thin;
        align: center;
        width: 70%;
+}
 }
 
 th, td {
