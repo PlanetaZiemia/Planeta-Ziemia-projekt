@@ -311,7 +311,7 @@ div.opis_zdjecia {padding: 15px;
 
 
 @media only screen and (max-width: 480px) {
-.galeria_ramka {width: 25%; margin: 5px; border: 1px solid #777;}
+.galeria_ramka {width: 100%; margin: 5px; border: 1px solid #777;}
 ol {width: 100%; background-color:#404040;}
 li {width: 100%;}
 .zdjart {width: 100%;}
