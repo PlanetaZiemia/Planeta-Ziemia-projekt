@@ -194,6 +194,7 @@ ol     {list-style-type:none;
       }
 
       /* wygl¹d elementów - li - wszystkich dzieci elementu - ol */
+@media only screen and (min-width: 481px) {
       ol > li {
         float:left;
         width:150px;
@@ -201,6 +202,7 @@ ol     {list-style-type:none;
         background-color:#404040;
         height:2em;
       }
+}
 
       /* wygl¹d elementu - li - pierwszego dziecka elementu - ol */
       ol > li:first-child {
@@ -318,5 +320,6 @@ article {margin-right: 35px;
 }
 table {width: 95%;}
 h1 {max-width:60%;}
+      ol > li {float:left; width:100%; margin-left:1px; background-color:#404040; height:2em;}
 }
 
