@@ -312,7 +312,7 @@ div.opis_zdjecia {padding: 15px;
 
 @media only screen and (max-width: 480px) {
 .galeria_ramka {width: 100%;}
-ol {width: 100%;}
+ol {width: 100%; background-color:#404040;}
 li {width: 100%;}
 .zdjart {width: 25%; margin: 5px; border: 1px solid #777;}
 article {margin-right: 35px;
@@ -320,6 +320,6 @@ article {margin-right: 35px;
 }
 table {width: 95%;}
 h1 {max-width:60%;}
-      ol > li {float:left; width:100%; margin-left:1px; background-color:#404040; height:2em;}
+      ol > li {float:left; width:100%; margin-left:1px; background-color:#404040; height:2em; align:center;}
 }
 
